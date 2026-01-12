@@ -66,9 +66,186 @@
       "Vérifier que la soumission définitive du formulaire de saisie est précédée d'une étape permettant, si l'utilisateur le souhaite, de contrôler et de modifier le résultat de sa saisie avant publication."
     ],
     "screenshotsSources": [
-      "https://www.gmail.com/",
-      "https://www.nuxt.com/blog",
-      "https://developer.mozilla.org/fr/"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Les contenus publicitaires ou sponsorisés sont identifiés comme tels.",
+    "authors": ["Abdulmalek ESUGHI"],
+    "path": "/rules/8",
+    "description": "Contenu éditorial ou publicitaire ? Article de fond ou publireportage ? Avis impartial ou billet sponsorisé ? Mieux vaut préciser de quoi il s'agit, ainsi les internautes sauront à quoi s'en tenir et n'auront rien à vous reprocher.",
+    "tags": ["Conception", "Contenus", "Editorial", "SEO", "Écoconception"],
+    "objectives": [
+      "Permettre aux utilisateurs d'identifier les contenus publicitaires et sponsorisés.",
+      "Respecter les règles de transparence et de confiance envers les utilisateurs."
+    ],
+    "implementationIntro": "Identifier clairement tout contenu publicitaire ou sponsorisé.",
+    "implementation": [
+      "Ajouter une mention explicite « Publicité » ou « Sponsorisé » avant le contenu",
+      "Utiliser une mise en page ou une couleur différente pour les contenus publicitaires",
+      "Inclure une mention légale précisant la nature publicitaire du contenu"
+    ],
+    "control": [
+      "Vérifier que tout contenu publicitaire porte une mention explicite.",
+      "Vérifier que les utilisateurs peuvent facilement identifier les contenus sponsorisés."
+    ],
+    "screenshotsSources": [
+
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Les zones de contenu substituables sont identifiées et accessibles.",
+    "path": "/rules/9",
+    "authors": ["Abdulmalek ESUGHI"],
+    "description": "Certains contenus peuvent être affichés de plusieurs façons différentes selon la situation de l'utilisateur. Ces contenus dynamiques ou personnalisés doivent rester accessibles même si l'utilisateur n'a pas accès à la version habituelle.",
+    "tags": ["Accessibilité", "Conception", "Développement"],
+    "objectives": [
+      "Assurer l'accessibilité des contenus dynamiques et personnalisés.",
+      "Permettre aux utilisateurs d'accéder aux contenus substitutifs si la version principale n'est pas accessible."
+    ],
+    "implementationIntro": "Identifier les zones de contenu substituables et mettre en place des mécanismes d'accès alternatifs.",
+    "implementation": [
+      "Identifier les zones de contenu qui peuvent être affichées de plusieurs façons",
+      "Assurer que les contenus substitutifs sont accessibles à tous les utilisateurs",
+      "Mettre en place des liens ou des commandes pour accéder aux versions alternatives"
+    ],
+    "control": [
+      "Identifier les zones de contenu substituables du site.",
+      "Vérifier que les utilisateurs peuvent accéder aux contenus substitutifs de façon équitable."
+    ],
+    "screenshotsSources": [
+
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Les contenus ou fichiers destinés à des espaces publics peuvent être vérifiés avant leur envoi définitif.",
+    "authors": ["Marco BARONI"],
+    "path": "/rules/10",
+    "description": "Il est fort agaçant de voir publier un message sous une forme dégradée ou de constater après envoi que l’on a écrit une grosse bêtise. La prévisualisation permet de voir les contenus en contexte et donne la possibilité de les corriger ou de les peaufiner.",
+    "tags": ["Contenus", "Développement"],
+    "objectives": [
+      "Permettre à l’utilisateur de vérifier sa saisie en contexte et, si nécessaire, de la corriger avant envoi.",
+      "Diminuer le nombre de demandes de rectification ou de suppression."
+    ],
+    "implementationIntro": "Mettre en place une prévisualisation des informations saisies avant la soumission définitive du formulaire, avec possibilité de les modifier.",
+    "implementation": [],
+    "control": [
+      "Pour chaque espace public du site (zone de commentaire, forum, page personnelle publique, avatar, portfolio de documents, etc.) :",
+      "Saisir des informations destinées à être rendues publiques telles que des images associées à un compte ou un commentaire.",
+      "Vérifier que la soumission définitive du formulaire de saisie est précédée d'une étape permettant, si l'utilisateur le souhaite, de contrôler et de modifier le résultat de sa saisie avant publication."
+    ],
+    "screenshotsSources": [
+
+    ]
+  },
+  {
+    "id": 11,
+    "title": "L'utilisateur est libre de ses choix de navigation et de consultation.",
+    "path": "/rules/11",
+    "authors": ["Abdulmalek ESUGHI"],
+    "description": "L'utilisateur n'aime pas être manipulé ou piégé. Fenêtres qui s'ouvrent sans qu'on les ait demandées, liens qui font ce qu'on n'attendait pas, contenus qui se ferment malgré nous : voilà le type de pratiques qui agacent les visiteurs.",
+    "tags": ["Accessibilité", "Conception", "UX"],
+    "objectives": [
+      "Respecter la liberté de choix de l'utilisateur.",
+      "Éviter les tactiques manipulatrices ou trompeuses."
+    ],
+    "implementationIntro": "Garantir que l'utilisateur reste maître de sa navigation.",
+    "implementation": [
+      "Ne pas ouvrir de nouvelles fenêtres ou onglets sans action explicite de l'utilisateur",
+      "Ne pas utiliser de redirige implicites",
+      "Permettre à l'utilisateur de fermer facilement les contenus modaux ou les dialogues",
+      "Informer clairement avant tout changement de contexte"
+    ],
+    "control": [
+      "Vérifier qu'aucune fenêtre ne s'ouvre sans action de l'utilisateur.",
+      "Vérifier que les liens font ce qu'on en attend.",
+      "Vérifier que l'utilisateur peut fermer les dialogues et modaux facilement."
+    ],
+    "screenshotsSources": [
+
+    ]
+  },
+  {
+    "id": 12,
+    "title": "La recherche est disponible et efficace, notamment sur son propre contenu.",
+    "path": "/rules/12",
+    "authors": ["Abdulmalek ESUGHI"],
+    "description": "Sur un site grand public ou professionnel, un moteur de recherche interne facilite grandement la recherche d'information, notamment si le site contient beaucoup de contenus. Une fonction de recherche en texte intégral permet à l'utilisateur de trouver rapidement ce qu'il cherche.",
+    "tags": ["Conception", "Contenus", "Développement", "SEO", "UX"],
+    "objectives": [
+      "Permettre à l'utilisateur de trouver rapidement les contenus pertinents.",
+      "Améliorer l'accessibilité des contenus du site."
+    ],
+    "implementationIntro": "Mettre en place une fonction de recherche performante et facile d'accès.",
+    "implementation": [
+      "Installer un moteur de recherche interne performant",
+      "Indexer les contenus pertinents du site",
+      "Afficher les résultats de manière claire et hiérarchisée",
+      "Afficher le nombre de résultats trouvés"
+    ],
+    "control": [
+      "Rechercher un terme présent dans le site.",
+      "Vérifier que la recherche fonctionne et que les résultats sont pertinents.",
+      "Vérifier que le nombre de résultats trouvés est affiché."
+    ],
+    "screenshotsSources": [
+
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Les nouvelles fenêtres ou onglets ne s'ouvrent que si c'est nécessaire.",
+    "path": "/rules/13",
+    "authors": ["Abdulmalek ESUGHI"],
+    "description": "Certains navigateurs ou certaines configurations ne gèrent pas bien l'ouverture de nouvelles fenêtres ou l'accès aux onglets. D'autre part, cela peut perdre l'utilisateur qui perd de vue la fenêtre d'origine. En règle générale, il est préférable de laisser à l'utilisateur le choix d'ouvrir un lien dans une nouvelle fenêtre ou un nouvel onglet.",
+    "tags": ["Accessibilité", "Conception", "UX"],
+    "objectives": [
+      "Respecter les choix de navigation de l'utilisateur.",
+      "Assurer la compatibilité avec tous les navigateurs."
+    ],
+    "implementationIntro": "Limiter l'ouverture de nouvelles fenêtres ou onglets au strict nécessaire.",
+    "implementation": [
+      "Ne pas ouvrir de nouvelles fenêtres ou onglets par défaut",
+      "Laisser l'utilisateur choisir d'ouvrir un lien dans un nouvel onglet",
+      "Si une nouvelle fenêtre doit s'ouvrir, le signaler clairement à l'utilisateur"
+    ],
+    "control": [
+      "Cliquer sur tous les liens du site.",
+      "Vérifier qu'aucune nouvelle fenêtre ne s'ouvre sans action volontaire de l'utilisateur.",
+      "Si une nouvelle fenêtre s'ouvre, vérifier que c'est clairement signalé."
+    ],
+    "screenshotsSources": [
+
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Les informations relatives à la sécurité du site sont aisément accessibles.",
+    "path": "/rules/14",
+    "authors": ["Abdulmalek ESUGHI"],
+    "description": "Les visiteurs veulent savoir si le site est sécurisé, comment leurs données personnelles sont traitées et quelles sont les conditions de sécurité en vigueur. Les informations relatives à la sécurité, à la politique de confidentialité et aux conditions d'utilisation doivent être faciles à trouver et à comprendre.",
+    "tags": ["Conception", "Contenus", "Sécurité", "Confiance"],
+    "objectives": [
+      "Assurer que les utilisateurs comprennent les conditions de sécurité.",
+      "Respecter la transparence concernant le traitement des données personnelles.",
+      "Construire la confiance avec les utilisateurs."
+    ],
+    "implementationIntro": "Rendre les informations de sécurité et de confidentialité facilement accessibles.",
+    "implementation": [
+      "Afficher un lien vers la politique de confidentialité dans le pied de page",
+      "Mettre à disposition les conditions générales d'utilisation",
+      "Indiquer les modalités de sécurisation des données personnelles",
+      "Afficher le certificat de sécurité ou les badges de confiance si applicable"
+    ],
+    "control": [
+      "Vérifier la présence de liens vers les pages de sécurité et de confidentialité.",
+      "Vérifier que la politique de confidentialité est claire et facilement compréhensible.",
+      "Vérifier que les conditions de sécurité sont documentées et accessibles."
+    ],
+    "screenshotsSources": [
+
     ]
   },
   {
