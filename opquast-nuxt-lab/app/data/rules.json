@@ -207,5 +207,251 @@
       "Vérifier que chaque élément optgroup est doté d'un attribut label associant un libellé pertinent au groupe d'options concern"
     ],
     "screenshotsSources": []
-  }
+  },
+
+  {
+  "id": 124,
+  "title": "Les vidéos sont déclenchées par l’utilisateur",
+  "authors": ["Opquast"],
+  "path": "/rules/124",
+  "description": "Les vidéos ne doivent pas se lancer automatiquement sans action explicite de l’utilisateur. Le déclenchement automatique peut perturber la navigation, nuire à l’accessibilité et générer une surcharge cognitive ou sensorielle, notamment pour les personnes utilisant des technologies d’assistance.",
+  "tags": [
+    "Accessibilité",
+    "Développement",
+    "Images et médias",
+    "Écoconception",
+    "UX"
+  ],
+  "objectives": [
+    "Laisser à l’utilisateur le contrôle de la lecture des contenus vidéo.",
+    "Éviter les distractions et les perturbations lors de la navigation.",
+    "Améliorer l’accessibilité des pages contenant des médias."
+  ],
+  "implementationIntro": "Pour respecter cette règle, les bonnes pratiques suivantes peuvent être mises en œuvre :",
+  "implementation": [
+    "Ne pas utiliser de lecture automatique des vidéos au chargement de la page.",
+    "Éviter l’attribut autoplay sur les balises vidéo.",
+    "Fournir des contrôles visibles permettant de lancer, mettre en pause ou arrêter la vidéo.",
+    "S’assurer que la lecture d’une vidéo ne se déclenche qu’après une action volontaire de l’utilisateur."
+  ],
+  "control": [
+    "Vérifier qu’aucune vidéo ne démarre automatiquement à l’ouverture de la page.",
+    "Vérifier que la lecture d’une vidéo ne se déclenche pas sans intention explicite de l’utilisateur.",
+    "Tester la page avec différents navigateurs et dispositifs pour confirmer le comportement."
+  ],
+  "screenshotsSources": [
+    "https://developer.mozilla.org/fr/docs/Web/HTML/Element/video"
+  ]
+},
+{
+  "id": 125,
+  "title": "Les sons sont déclenchés par l’utilisateur",
+  "authors": ["Opquast"],
+  "path": "/rules/125",
+  "description": "Les contenus sonores ne doivent pas se lancer automatiquement sans action explicite de l’utilisateur. Un déclenchement automatique du son peut gêner la navigation, perturber la compréhension des contenus et poser des problèmes d’accessibilité.",
+  "tags": [
+    "Accessibilité",
+    "Développement",
+    "Audio",
+    "UX",
+    "Écoconception"
+  ],
+  "objectives": [
+    "Permettre à l’utilisateur de garder le contrôle de la diffusion des contenus sonores.",
+    "Éviter les nuisances sonores involontaires lors de la consultation des pages.",
+    "Améliorer l’accessibilité des contenus audio."
+  ],
+  "implementationIntro": "À titre d'exemple, les différentes solutions ci-dessous peuvent être déployées seules ou conjointement :",
+  "implementation": [
+    "Ne pas déclencher automatiquement la lecture d’un son au chargement de la page.",
+    "Éviter l’utilisation de sons en lecture automatique (autoplay).",
+    "Proposer des contrôles visibles permettant de lancer, mettre en pause ou arrêter le son.",
+    "S’assurer que la diffusion sonore démarre uniquement après une action volontaire de l’utilisateur."
+  ],
+  "control": [
+    "Vérifier qu’aucun son ne se déclenche automatiquement à l’ouverture d’une page.",
+    "Vérifier que la lecture d’un contenu sonore nécessite toujours une action explicite de l’utilisateur."
+  ],
+  "screenshotsSources": [
+    "https://developer.mozilla.org/fr/docs/Web/HTML/Element/audio",
+    "https://www.radiofrance.fr/",
+    "https://www.bbc.co.uk/sounds"
+  ]
+},
+{
+  "id": 126,
+  "title": "Les animations sont déclenchées par l’utilisateur",
+  "authors": ["Opquast"],
+  "path": "/rules/126",
+  "description": "Les animations ne doivent pas se déclencher automatiquement sans action explicite de l’utilisateur. Des animations lancées sans contrôle peuvent perturber la navigation, distraire l’utilisateur et poser des problèmes d’accessibilité, notamment pour les personnes sensibles aux mouvements.",
+  "tags": [
+    "Accessibilité",
+    "Développement",
+    "Animations",
+    "UX",
+    "Écoconception"
+  ],
+  "objectives": [
+    "Permettre à l’utilisateur de garder le contrôle des animations.",
+    "Limiter les distractions et les perturbations visuelles lors de la navigation.",
+    "Améliorer l’accessibilité pour les utilisateurs sensibles aux animations."
+  ],
+  "implementationIntro": "À titre d'exemple, les différentes solutions ci-dessous peuvent être déployées seules ou conjointement :",
+  "implementation": [
+    "Ne pas déclencher automatiquement les animations au chargement de la page.",
+    "Éviter les animations non sollicitées (GIF animés, effets CSS ou JavaScript automatiques).",
+    "Proposer un mécanisme explicite pour lancer ou arrêter une animation.",
+    "Respecter les préférences utilisateur, notamment le réglage « réduire les animations » du système."
+  ],
+  "control": [
+    "Vérifier qu’aucune animation ne démarre automatiquement à l’ouverture d’une page.",
+    "Vérifier que les animations nécessitent toujours une action explicite de l’utilisateur ou peuvent être désactivées."
+  ],
+  "screenshotsSources": [
+    "https://developer.mozilla.org/fr/docs/Web/CSS/@media/prefers-reduced-motion",
+    "https://www.gov.uk/",
+    "https://design-system.service.gov.uk/"
+  ]
+},
+{
+  "id": 127,
+  "title": "Les contenus animés peuvent être arrêtés",
+  "authors": ["Opquast"],
+  "path": "/rules/127",
+  "description": "Les contenus animés présents sur une page doivent pouvoir être arrêtés, mis en pause ou masqués par l’utilisateur. L’impossibilité de contrôler une animation peut nuire à la compréhension des contenus et poser des problèmes d’accessibilité.",
+  "tags": [
+    "Accessibilité",
+    "Développement",
+    "Animations",
+    "UX",
+    "Écoconception"
+  ],
+  "objectives": [
+    "Permettre à l’utilisateur de contrôler l’affichage des contenus animés.",
+    "Éviter les distractions visuelles persistantes.",
+    "Améliorer l’accessibilité des pages contenant des animations."
+  ],
+  "implementationIntro": "À titre d'exemple, les différentes solutions ci-dessous peuvent être déployées seules ou conjointement :",
+  "implementation": [
+    "Proposer un bouton ou un mécanisme permettant de mettre en pause ou d’arrêter une animation.",
+    "Permettre la désactivation des animations via un réglage global ou une préférence utilisateur.",
+    "Limiter la durée des animations lorsque leur arrêt n’est pas possible.",
+    "Respecter les préférences utilisateur, notamment le réglage « réduire les animations » du système."
+  ],
+  "control": [
+    "Vérifier que chaque contenu animé peut être arrêté, mis en pause ou masqué par l’utilisateur.",
+    "Vérifier que l’arrêt ou la mise en pause est simple et accessible."
+  ],
+  "screenshotsSources": [
+    "https://developer.mozilla.org/fr/docs/Web/CSS/@media/prefers-reduced-motion",
+    "https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html",
+    "https://www.gov.uk/"
+  ]
+},
+{
+  "id": 128,
+  "title": "Les clignotements sont évités",
+  "authors": ["Opquast"],
+  "path": "/rules/128",
+  "description": "Les contenus qui clignotent ou scintillent doivent être évités. Les clignotements peuvent provoquer une gêne visuelle, perturber la navigation et, dans certains cas, présenter un risque pour les personnes photosensibles.",
+  "tags": [
+    "Accessibilité",
+    "Développement",
+    "Animations",
+    "UX",
+    "Écoconception"
+  ],
+  "objectives": [
+    "Éviter les risques liés aux contenus clignotants ou scintillants.",
+    "Limiter les gênes visuelles et les distractions.",
+    "Améliorer l’accessibilité pour les utilisateurs photosensibles."
+  ],
+  "implementationIntro": "À titre d'exemple, les différentes solutions ci-dessous peuvent être déployées seules ou conjointement :",
+  "implementation": [
+    "Éviter l’utilisation de contenus clignotants ou scintillants.",
+    "Limiter strictement la fréquence des clignotements lorsqu’ils sont indispensables.",
+    "Remplacer les clignotements par des effets visuels statiques ou plus discrets.",
+    "Respecter les recommandations d’accessibilité concernant les contenus susceptibles de provoquer des crises."
+  ],
+  "control": [
+    "Vérifier l’absence de contenus clignotants ou scintillants dangereux.",
+    "Vérifier que les éventuels clignotements respectent les seuils d’accessibilité recommandés."
+  ],
+  "screenshotsSources": [
+    "https://www.w3.org/WAI/WCAG21/Understanding/seizures-and-physical-reactions.html",
+    "https://developer.mozilla.org/fr/docs/Web/CSS/animation",
+    "https://www.gov.uk/"
+  ]
+},
+{
+  "id": 129,
+  "title": "Les animations essentielles sont conservées",
+  "authors": ["Opquast"],
+  "path": "/rules/129",
+  "description": "Lorsque des animations sont utilisées pour transmettre une information essentielle ou faciliter la compréhension, elles doivent être conservées ou remplacées par une alternative équivalente. La suppression totale des animations ne doit pas entraîner une perte d’information.",
+  "tags": [
+    "Accessibilité",
+    "Développement",
+    "Animations",
+    "UX",
+    "Écoconception"
+  ],
+  "objectives": [
+    "Garantir l’accès à l’information même en cas de désactivation des animations.",
+    "Préserver les animations lorsqu’elles jouent un rôle fonctionnel ou informatif.",
+    "Assurer une compréhension équivalente des contenus avec ou sans animation."
+  ],
+  "implementationIntro": "À titre d'exemple, les différentes solutions ci-dessous peuvent être déployées seules ou conjointement :",
+  "implementation": [
+    "Identifier les animations ayant un rôle fonctionnel ou informatif.",
+    "Prévoir une alternative statique ou textuelle lorsque les animations sont désactivées.",
+    "S’assurer que la désactivation des animations n’entraîne pas de perte de compréhension.",
+    "Tester les interfaces avec les animations réduites ou désactivées."
+  ],
+  "control": [
+    "Vérifier que les informations essentielles restent accessibles sans animation.",
+    "Vérifier que les animations utiles ne sont pas supprimées sans solution de remplacement."
+  ],
+  "screenshotsSources": [
+    "https://developer.mozilla.org/fr/docs/Web/CSS/@media/prefers-reduced-motion",
+    "https://design-system.service.gov.uk/",
+    "https://www.numerique.gouv.fr/"
+  ]
+},
+{
+  "id": 130,
+  "title": "Les effets de défilement sont maîtrisés",
+  "authors": ["Opquast"],
+  "path": "/rules/130",
+  "description": "Les effets liés au défilement (parallax, déclenchements automatiques, animations liées au scroll) doivent être utilisés avec modération et ne pas perturber la navigation. Des effets excessifs peuvent nuire à l’accessibilité et à la compréhension des contenus.",
+  "tags": [
+    "Accessibilité",
+    "Développement",
+    "Animations",
+    "UX",
+    "Écoconception"
+  ],
+  "objectives": [
+    "Éviter les effets de défilement perturbants ou envahissants.",
+    "Permettre une navigation fluide et prévisible.",
+    "Améliorer l’accessibilité pour les utilisateurs sensibles aux mouvements."
+  ],
+  "implementationIntro": "À titre d'exemple, les différentes solutions ci-dessous peuvent être déployées seules ou conjointement :",
+  "implementation": [
+    "Limiter l’utilisation d’effets de défilement complexes ou envahissants.",
+    "Éviter les animations déclenchées automatiquement lors du scroll.",
+    "Proposer une alternative ou une désactivation des effets de défilement.",
+    "Respecter les préférences utilisateur, notamment le réglage « réduire les animations » du système."
+  ],
+  "control": [
+    "Vérifier que les effets de défilement ne gênent pas la lecture ou la navigation.",
+    "Vérifier que les effets peuvent être désactivés ou n’entraînent pas de perte d’information."
+  ],
+  "screenshotsSources": [
+    "https://developer.mozilla.org/fr/docs/Web/CSS/@media/prefers-reduced-motion",
+    "https://www.apple.com/fr/",
+    "https://www.gov.uk/"
+  ]
+}
 ]
+
