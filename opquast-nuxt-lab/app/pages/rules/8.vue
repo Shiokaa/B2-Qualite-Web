@@ -239,17 +239,37 @@ const activeTab = ref('preview')
           <div v-else>
             <pre
               class="rounded-xl border border-zinc-800 bg-zinc-950 p-5 overflow-auto text-xs text-zinc-200"
-            ><code>&lt;article&gt;
-  &lt;span&gt;Publicité&lt;/span&gt;
-  &lt;h3&gt;Découvrez notre nouveau produit&lt;/h3&gt;
-  &lt;p&gt;Ce contenu est proposé par notre partenaire.&lt;/p&gt;
-&lt;/article&gt;
+            ><code>&lt;div class=&quot;rounded-xl border border-zinc-800 bg-zinc-950 p-5&quot;&gt;
+  &lt;div class=&quot;mb-3&quot;&gt;
+    &lt;span class=&quot;text-[11px] uppercase tracking-wide rounded border border-amber-700 bg-amber-900/30 px-2 py-1 text-amber-200&quot;&gt;
+      Publicité
+    &lt;/span&gt;
+  &lt;/div&gt;
+  
+  &lt;h3 class=&quot;text-base font-semibold text-zinc-100 mb-2&quot;&gt;
+    Découvrez notre nouveau produit
+  &lt;/h3&gt;
+  
+  &lt;p class=&quot;text-sm text-zinc-400&quot;&gt;
+    Ce contenu est proposé par notre partenaire commercial.
+  &lt;/p&gt;
+&lt;/div&gt;
 
-&lt;article&gt;
-  &lt;span&gt;Sponsorisé&lt;/span&gt;
-  &lt;h3&gt;Article partenaire&lt;/h3&gt;
-  &lt;p&gt;Contenu sponsorisé par une marque.&lt;/p&gt;
-&lt;/article&gt;</code></pre>
+&lt;div class=&quot;rounded-xl border border-zinc-800 bg-zinc-950 p-5&quot;&gt;
+  &lt;div class=&quot;mb-3&quot;&gt;
+    &lt;span class=&quot;text-[11px] uppercase tracking-wide rounded border border-blue-700 bg-blue-900/30 px-2 py-1 text-blue-200&quot;&gt;
+      Sponsorisé
+    &lt;/span&gt;
+  &lt;/div&gt;
+  
+  &lt;h3 class=&quot;text-base font-semibold text-zinc-100 mb-2&quot;&gt;
+    Article partenaire
+  &lt;/h3&gt;
+  
+  &lt;p class=&quot;text-sm text-zinc-400&quot;&gt;
+    Contenu sponsorisé par une marque partenaire.
+  &lt;/p&gt;
+&lt;/div&gt;</code></pre>
 
             <p class="mt-3 text-xs text-zinc-500">
               La mention "Publicité" ou "Sponsorisé" doit être claire et visible avant le contenu commercial.
