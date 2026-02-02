@@ -213,7 +213,6 @@
     ],
     "screenshotsSources": ["", "", ""]
   },
-
   {
     "id": 58,
     "title": "Au moins deux moyens de paiement sont acceptés.",
@@ -272,7 +271,8 @@
       "https://pay.google.com",
       "https://www.fnac.com"
     ]
-  },{
+  },
+  {
     "id": 65,
     "title": "Les produits indisponibles font l'objet d'une différenciation visuelle et textuelle",
     "authors": ["Timothé Champieux"],
@@ -301,7 +301,8 @@
       "https://www.decathlon.fr/",
       "https://www.asos.com/fr/"
     ]
-  },{
+  },
+  {
     "id": 66,
     "title": "Un mail indiquant la référence de la transaction et les données de la commande est envoyé suite à la validation",
     "authors": ["Timothé Champieux"],
@@ -329,7 +330,8 @@
       "https://www.fnac.com/",
       "https://www.ubereats.com/"
     ]
-  },{
+  },
+  {
     "id": 67,
     "title": "Chaque réclamation fait l'objet d'un accusé de réception",
     "authors": ["Timothé Champieux"],
@@ -357,7 +359,8 @@
       "https://www.paypal.com/fr/disputes/",
       "https://www.sncf-connect.com/aide"
     ]
-  },{
+  },
+  {
     "id": 68,
     "title": "La provenance des produits est indiquée",
     "authors": ["Timothé Champieux"],
@@ -385,7 +388,8 @@
       "https://www.patagonia.com/",
       "https://www.biocoop.fr/"
     ]
-  },{
+  },
+  {
     "id": 69,
     "title": "Chaque champ de formulaire est associé dans le code source à une étiquette qui lui est propre",
     "authors": ["Timothé Champieux"],
@@ -413,7 +417,8 @@
       "https://github.com/signup",
       "https://accounts.google.com/"
     ]
-  },{
+  },
+  {
     "id": 70,
     "title": "Les informations complétant l'étiquette d'un champ sont associées à celui-ci dans le code source",
     "authors": ["Timothé Champieux"],
@@ -441,7 +446,8 @@
       "https://getbootstrap.com/docs/5.3/forms/overview/",
       "https://github.com/signup"
     ]
-  },{
+  },
+  {
     "id": 71,
     "title": "L'étiquette de chaque champ de formulaire indique si la saisie est obligatoire",
     "authors": ["Timothé Champieux"],
@@ -676,7 +682,10 @@
     "control": [
       "Se connecter au service ou à l'espace privé à partir de plusieurs périphériques différents, et vérifier que le site permet de désactiver globalement toutes les connexions actives."
     ],
-    "screenshotsSources": ["https://myaccount.google.com/device-activity", "https://github.com/settings/sessions"]
+    "screenshotsSources": [
+      "https://myaccount.google.com/device-activity",
+      "https://github.com/settings/sessions"
+    ]
   },
   {
     "id": 24,
@@ -798,7 +807,7 @@
       "Si données sensibles sur page HTTP, vérifier que l'attribut action du formulaire pointe vers une URL HTTPS",
       "Vérifier l'en-tête HSTS est présent pour forcer HTTPS"
     ],
-    "screenshotsSources": ["https://github.com","http://neverssl.com"]
+    "screenshotsSources": ["https://github.com", "http://neverssl.com"]
   },
   {
     "id": 28,
@@ -871,7 +880,11 @@
       "Soumettre des formats incorrects pour voir si l'erreur est bien gérée.",
       "Vérifier la présence de l'indication de format dans le code."
     ],
-    "screenshotsSources": ["https://sncf-connect.com","https://airbnb.fr","https://amazon.fr"]
+    "screenshotsSources": [
+      "https://sncf-connect.com",
+      "https://airbnb.fr",
+      "https://amazon.fr"
+    ]
   },
   {
     "id": 73,
@@ -894,7 +907,11 @@
       "Tester la saisie avec et sans respect de la casse.",
       "Vérifier la présence de l'avertissement dans le label ou aria-label."
     ],
-    "screenshotsSources": ["https://www2.hm.com","https://secure.fnac.com","https://amazon.fr"]
+    "screenshotsSources": [
+      "https://www2.hm.com",
+      "https://secure.fnac.com",
+      "https://amazon.fr"
+    ]
   },
   {
     "id": 74,
@@ -918,7 +935,11 @@
       "Vérifier que la limite est indiquée textuellement.",
       "Vérifier la cohérence avec la contrainte technique (maxlength)."
     ],
-    "screenshotsSources": ["https://x.com","https://linkedin.com","https://ads.google.com"]
+    "screenshotsSources": [
+      "https://x.com",
+      "https://linkedin.com",
+      "https://ads.google.com"
+    ]
   },
   {
     "id": 75,
@@ -926,7 +947,13 @@
     "authors": ["Joud CHEBIRA"],
     "path": "/rules/75",
     "description": "Éviter à l'utilisateur de définir un mot de passe erroné qu'il ne pourra pas réutiliser ensuite.",
-    "tags": ["Basics", "Accessibilité", "Conception", "Développement", "Formulaires"],
+    "tags": [
+      "Basics",
+      "Accessibilité",
+      "Conception",
+      "Développement",
+      "Formulaires"
+    ],
     "objectives": [
       "Garantir que le mot de passe enregistré est bien celui souhaité."
     ],
@@ -938,7 +965,11 @@
     "control": [
       "Vérifier la présence du champ de confirmation lors de la création de compte."
     ],
-    "screenshotsSources": ["https://discord.com","https://linkedin.com","https://myaccount.google.com"]
+    "screenshotsSources": [
+      "https://discord.com",
+      "https://linkedin.com",
+      "https://myaccount.google.com"
+    ]
   },
   {
     "id": 76,
@@ -946,7 +977,13 @@
     "authors": ["Joud CHEBIRA"],
     "path": "/rules/76",
     "description": "Donner la possibilité d'afficher le mot de passe pour vérifier sa saisie, surtout sur mobile.",
-    "tags": ["Basics", "Accessibilité", "Conception", "Développement", "Formulaires"],
+    "tags": [
+      "Basics",
+      "Accessibilité",
+      "Conception",
+      "Développement",
+      "Formulaires"
+    ],
     "objectives": [
       "Faciliter la saisie, notamment sur mobile.",
       "Prévenir les erreurs."
@@ -958,7 +995,11 @@
     "control": [
       "Contrôler le fonctionnement du bouton d'affichage du mot de passe."
     ],
-    "screenshotsSources": ["https://brave.com","https://x.com","https://fnac.com"]
+    "screenshotsSources": [
+      "https://brave.com",
+      "https://x.com",
+      "https://fnac.com"
+    ]
   },
   {
     "id": 77,
@@ -981,7 +1022,11 @@
       "Vérifier la proximité immédiate (quelques pixels) entre label et champ.",
       "Vérifier l'absence d'ambiguïté sur mobile."
     ],
-    "screenshotsSources": ["https://www.booking.com","https://docs.google.com/forms","https://stripe-payments-demo.appspot.com"]
+    "screenshotsSources": [
+      "https://www.booking.com",
+      "https://docs.google.com/forms",
+      "https://stripe-payments-demo.appspot.com"
+    ]
   },
   {
     "id": 78,
@@ -1003,7 +1048,11 @@
       "Vérifier la proximité immédiate des informations d'aide.",
       "Vérifier l'absence d'espace vide important."
     ],
-    "screenshotsSources": ["https://www.autoentrepreneur.urssaf.fr/","https://www.fnac.com","https://www.fnac.com"]
+    "screenshotsSources": [
+      "https://www.autoentrepreneur.urssaf.fr/",
+      "https://www.fnac.com",
+      "https://www.fnac.com"
+    ]
   },
   {
     "id": 79,
@@ -1011,7 +1060,13 @@
     "authors": ["Joud CHEBIRA"],
     "path": "/rules/79",
     "description": "L'utilisateur ne doit pas chercher ses erreurs. Elles doivent être signalées globalement et individuellement.",
-    "tags": ["Basics", "Accessibilité", "Conception", "Développement", "Formulaires"],
+    "tags": [
+      "Basics",
+      "Accessibilité",
+      "Conception",
+      "Développement",
+      "Formulaires"
+    ],
     "objectives": [
       "Donner un retour clair sur l'action.",
       "Guider l'utilisateur vers les corrections."
@@ -1026,7 +1081,11 @@
       "Soumettre un formulaire vide/invalide.",
       "Vérifier le message global et le marquage individuel des champs."
     ],
-    "screenshotsSources": ["https://www2.hm.com","https://www.booking.com","https://dashboard.stripe.com"]
+    "screenshotsSources": [
+      "https://www2.hm.com",
+      "https://www.booking.com",
+      "https://dashboard.stripe.com"
+    ]
   },
   {
     "id": 88,
@@ -1165,7 +1224,9 @@
       "Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation"
     ],
     "implementationIntro": "Indiquer, au moins sur une page et idéalement sur chaque page, le nom de l'auteur, de l'entité ou de la société qui propose le service.",
-    "implementation": ["Si le nom du site est identique à celui de l'entité qui le propose, ce qui est relativement fréquent, notamment pour les entreprises, la mention de ce nom dans le logo ou la baseline suffit à respecter la bonne pratique."],
+    "implementation": [
+      "Si le nom du site est identique à celui de l'entité qui le propose, ce qui est relativement fréquent, notamment pour les entreprises, la mention de ce nom dans le logo ou la baseline suffit à respecter la bonne pratique."
+    ],
     "control": [
       "Au sein de la page d'accueil ou au moins dans une page accessible depuis la page d'accueil (fréquemment, la page des mentions légales) ou encore dans chacune des pages du site (souvent en pied de page) :",
       "Vérifier manuellement que le nom de l'auteur, de l'entité ou de la société proposant le service est mentionné dans au moins une de ces pages."
@@ -1182,7 +1243,12 @@
     "authors": ["Matteo LINGLET"],
     "path": "/rules/102",
     "description": "Le titre d’une page web est amené à s’afficher dans divers endroits : navigateurs, favoris, titre d’un contenu partagé via les réseaux sociaux, etc. Si chacun de ces titres contient le nom de votre site, les utilisateurs pourront l’identifier plus facilement et retrouver rapidement les contenus qui s’y rapportent.",
-    "tags": ["Accessibilité", "Développement", "Identification et contact", "SEO"],
+    "tags": [
+      "Accessibilité",
+      "Développement",
+      "Identification et contact",
+      "SEO"
+    ],
     "objectives": [
       "Permettre aux utilisateurs d'identifier immédiatement le site dans les onglets, les favoris, dans la fenêtre du navigateur ou encore dans les lecteurs d'écran.",
       "Améliorer le référencement du site et sa présentation dans les moteurs de recherche.",
@@ -1190,7 +1256,9 @@
       "Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation"
     ],
     "implementationIntro": "",
-    "implementation": ["Rédiger le contenu de l'élément title de chaque page de manière à y indiquer le nom du site."],
+    "implementation": [
+      "Rédiger le contenu de l'élément title de chaque page de manière à y indiquer le nom du site."
+    ],
     "control": [
       "Pour chaque page du site, vérifier que le nom du site est présent dans le titre (élément title) de page.",
       "Le contrôle peut être effectué de manière exhaustive si l'on dispose d'un outil permettant de dresser la liste complète des titres de toutes les pages (c'est le cas, par exemple, de Xenu's Link Sleuth). Il peut également être effectué à partir d'une vérification des templates utilisés par le CMS ou d'un échantillon de pages-types représentatives de ceux-ci. Dans tous les cas, on veillera à prendre en compte tout particulièrement les pages dépendant de services tiers, où la bonne pratique risque davantage de ne pas avoir été prise en compte."
@@ -1207,7 +1275,13 @@
     "authors": ["Matteo LINGLET"],
     "path": "/rules/103",
     "description": "Identifier le site en regardant le titre d’une page, c’est bien, mais comprendre très vite la nature du contenu d’une page, c’est encore mieux. Et ce ne sont pas les moteurs de recherche qui diront le contraire.",
-    "tags": ["Basics", "Accessibilité", "Editorial", "Identification et contact", "SEO"],
+    "tags": [
+      "Basics",
+      "Accessibilité",
+      "Editorial",
+      "Identification et contact",
+      "SEO"
+    ],
     "objectives": [
       "Permettre aux utilisateurs d'identifier immédiatement la nature des contenus de chaque page dans les onglets, les favoris, dans la fenêtre du navigateur ou encore dans les lecteurs d'écran.",
       "Améliorer le référencement des pages et leur présentation dans les moteurs de recherche.",
@@ -1237,7 +1311,12 @@
     "authors": ["Matteo LINGLET"],
     "path": "/rules/104",
     "description": "L’icône de favori est la petite image qui s’affiche dans votre navigateur et dans vos marque-pages ou favoris. Elle mérite d’être bien traitée, car elle joue un rôle important dans l’identification durable de votre site.",
-    "tags": ["Basics", "Conception", "Développement", "Identification et contact"],
+    "tags": [
+      "Basics",
+      "Conception",
+      "Développement",
+      "Identification et contact"
+    ],
     "objectives": [
       "Améliorer l'identification visuelle du site et de ses pages.",
       "Faciliter l'identification dans le navigateur et dans les favoris ou signets.",
@@ -1316,7 +1395,12 @@
     "authors": ["Matteo LINGLET"],
     "path": "/rules/107",
     "description": "Mettre à la disposition des internautes un formulaire de contact ou un numéro de téléphone, c’est une bonne chose. Cependant, l’un des deux peut être en défaut ou poser problème aux usagers.",
-    "tags": ["Accessibilité", "Conception", "Editorial", "Identification et contact"],
+    "tags": [
+      "Accessibilité",
+      "Conception",
+      "Editorial",
+      "Identification et contact"
+    ],
     "objectives": [
       "Optimiser les possibilités de retour d’information de la part des utilisateurs.",
       "Éviter de mettre l’utilisateur en difficulté en cas d’indisponibilité ou de problèmes d’utilisation de l’un des moyens de contact."
@@ -1332,6 +1416,9 @@
       "https://www.gmail.com/",
       "https://www.nuxt.com/blog",
       "https://developer.mozilla.org/fr/"
+    ]
+  },
+  {
     "id": 212,
     "title": "Un mécanisme de sécurité restreint l'origine des contenus.",
     "authors": ["Enzo ROSSI"],
@@ -1496,5 +1583,4 @@
       "https://github.com"
     ]
   }
-  
 ]
